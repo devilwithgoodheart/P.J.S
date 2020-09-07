@@ -220,7 +220,7 @@ margin-left:550px ;
 @media screen and (max-width: 425px){
 .p1{
   height:300px;
-  width:1435px;
+  width:1450px;
 }
  .checkbtn{
     display: block;
@@ -281,7 +281,7 @@ color:yellow;
    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .vi{
-  margin-left:200px;
+  margin-left:250px;
   width:250%;
   margin-top:50px;
   margin-bottom:100px;
@@ -353,11 +353,11 @@ h1 {
 
 /* Create three equal columns that floats next to each other */
 .column {
-  float: left;
+  float:right;
   width: 33.33%;
   margin-top:200px;
   margin-left: 00px;
-  margin-right:250px;
+  margin-right:700px;
   display: none; /* Hide all elements by default */
 }
 
@@ -370,8 +370,8 @@ h1 {
 
 /* Content */
 .content {
-  width:1000px;
-  height:600px;
+  width:1050px;
+  height:650px;
   border:2px solid;
   background-color: white;
   padding: 10px; 
@@ -429,4 +429,29 @@ font-size:65px;
 }
 
 
+}
+@media screen and (max-width: 380px){
+.vi{
+  margin-left:250px;
+  width:250%;
+  margin-top:50px;
+  margin-bottom:100px;
+}
+.column {
+  float: right;
+  width: 43.33%;
+  margin-top:200px;
+  margin-left: 0px;
+  margin-bottom:150px;
+  margin-right:640px;
+  display:  /* Hide all elements by default */
+}
+.content {
+  width:1100px;
+  height:600px;
+  border:2px solid;
+  background-color: white;
+  padding: 10px; 
+  margin-left: 0px;
+}
 }
